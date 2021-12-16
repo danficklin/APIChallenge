@@ -1,0 +1,26 @@
+body{
+    background:#ef5350;
+}
+.page{
+    display:flex;
+    justify-content:space-around;
+    font-family:sans-serif;
+}
+.page span{
+    color:white;
+    margin-top:100px;
+    font-size:34px;
+}
+.target{
+    padding:10px;
+    border-radius:25px;
+    border:1px solid gray;
+    text-align:center;
+}
+.target label{
+    text-transform:capitalize;
+}
+.target img{
+    height:256px;
+    width:256px;
+}
