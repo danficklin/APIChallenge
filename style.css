@@ -3,28 +3,53 @@ ul {
 }
 
 h1 {
-    text-shadow: 2px 2px snow;
+    color: red;
+    text-shadow: 2px 2px black;
     margin-bottom: 200px;
 }
 
 h2 {
-    color: white;
+    color: beige;
     font-size: xx-large;
     text-transform: capitalize;
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    width: 50%;
-    margin-left: 25%;
+    width: 25%;
+    margin-left: 36%;
 }
 
 h2:hover {
-    color: blue;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 1px 1px grey;
+    transition-property: color, text-shadow;
+    transition-duration: 3s, 1s;
 }
 
+h3 {
+    color: beige;
+    font-size: xx-large;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 25%;
+    margin-left: 36%;
+}
+
+h3:hover {
+    color: black;
+    text-shadow: 1px 1px grey;
+    transition-property: color, text-shadow;
+    transition-duration: 3s, 1s;
+}
+
+h3:first-letter {
+    text-transform:capitalize
+}
+
+
 body {
-    background-color: white;
+    background-color: beige;
     text-align: center;
 }
 
@@ -49,7 +74,9 @@ img {
 }
 
 img:hover {
-    filter: contrast(100%)
+    filter: contrast(100%);
+    transition-property: constrast();
+    transition-duration: 4s;
 }
 
 p {
@@ -59,3 +86,4 @@ p {
 p#info {
     margin-top: -100px
 }
+
