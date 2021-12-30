@@ -5,7 +5,6 @@ ul {
 h1 {
     color: red;
     text-shadow: 2px 2px black;
-    margin-bottom: 200px;
 }
 
 h2 {
@@ -34,6 +33,7 @@ h3 {
     border-width: 5px;
     width: 25%;
     margin-left: 36%;
+    text-transform: capitalize;
 }
 
 h3:hover {
@@ -41,10 +41,6 @@ h3:hover {
     text-shadow: 1px 1px grey;
     transition-property: color, text-shadow;
     transition-duration: 3s, 1s;
-}
-
-h3:first-letter {
-    text-transform:capitalize
 }
 
 
@@ -55,6 +51,7 @@ body {
 
 header {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #search-form {
@@ -67,8 +64,8 @@ header {
 }
 
 img {
-    width: 750px;
-    height: 750px;
+    width: 500px;
+    height: 500px;
     filter: contrast(0%);
     background: transparent;
 }
@@ -80,10 +77,23 @@ img:hover {
 }
 
 p {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 p#info {
-    margin-top: -100px
+    margin-top: 25px;
 }
 
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}

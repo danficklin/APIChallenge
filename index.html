@@ -7,11 +7,27 @@
     <title>API Challenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <form>
+        <fieldset>
+            <legend>Which Pokemon?</legend>
+        
+            <input type="radio" class="genOne" name="generation" value="151">
+            <label for="1">Generation 1 only</label><br/>
+        
+            <input type="radio" class="genTwo" name="generation" value="251" >
+            <label for="2">Generations 1 & 2 only</label><br/>
+        
+            <input type="radio" class="allGens" name="generation" value="898">
+            <label for="all">All Pokemon</label>
+        </fieldset>
+    </form>
+</header>
 <body>
     <h1>Who's that Pokemon?</h1>
     <p id="info">
         After you guess, hover over the box to see the name of the Pokemon,
-        or hover over the image to see the colored image.
+        or hover over the image to see the Pokemon. Refresh the page or change the Pokemon list at the top of the page to try again.
     </p>
     <div>
         <ul id="pokemon-list">
