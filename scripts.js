@@ -3,7 +3,7 @@ const baseURL = 'https://pokeapi.co/api/v2';
 
 let formElement = document.getElementById('search-form');
 let listElement = document.getElementById('pokemon-list');
-let totalPokemon = 898; 
+let totalPokemon = 151; 
 
 function randomPokemon() {
     return Math.floor((Math.random() * totalPokemon) +1);
